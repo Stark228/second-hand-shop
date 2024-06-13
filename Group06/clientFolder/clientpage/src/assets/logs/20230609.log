@@ -1,0 +1,7 @@
+18:22:45.700	INFO	Monitor         detect monitor '\\.\DISPLAY1' scale:1.000000 size: 0:768-0:1366 desktop: 0:768-0:1366
+18:22:45.736	INFO	Monitor         detect monitor '\\.\DISPLAY1' scale:1.000000 size: 0:768-0:1366 desktop: 0:768-0:1366
+18:22:45.736	INFO	BlackScreen     m_init: true
+18:22:45.736	INFO	Capture         select monitor '\\.\DISPLAY1'
+18:22:46.228	INFO	Capture         capture stopped
+18:22:46.283	INFO	Opus            compress stop
+18:22:46.283	INFO	Capture         capture stopped

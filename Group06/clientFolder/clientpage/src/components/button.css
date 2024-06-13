@@ -1,0 +1,48 @@
+button {
+       font-size: 16px;
+       letter-spacing: 3px;
+       text-transform: uppercase;
+       display: inline-block;
+       text-align: center;
+       padding: 0.3em 3.5em;
+       height:3rem;
+       border: 1px solid #F7931E;
+       background-color:#F7931E;
+       border-radius: 2px;
+       font-family:"Titillium Web, sans-serif";
+       color:white;
+       text-decoration: none;
+       transition: 0.3s ease all;
+       position: relative;
+       z-index: 1;
+       bottom: 3rem;
+     }
+     
+     button:before {
+       transition: 0.5s all ease;
+       position: absolute;
+       top: 0;
+       left: 50%;
+       right: 50%;
+       bottom: 0;
+       opacity: 0;
+       content: '';
+       background-color:white;
+       z-index: -1;
+     }
+     
+     button:hover, button:focus {
+       color:#F7931E;
+     }
+     
+     button:hover:before, button:focus:before {
+       transition: 0.5s all ease;
+       left: 0;
+       right: 0;
+       opacity: 1;
+    
+     }
+     
+     button:active {
+       transform: scale(0.9);
+     }
